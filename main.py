@@ -6,8 +6,8 @@ my_window.minsize(width=500, height=300) #changes the size of the window
 
 #Creating a LABEL:
 
-my_label = tkinter.Label(text="I am a Label")
-my_label.pack() #pust the label at the center of screen
+my_label = tkinter.Label(text="I am a Label", font=("Arial", 24, "bold"))
+my_label.pack() #pust the label at the center of screen. without the pack() method, LABEL won't appear on screen
 
 
 
